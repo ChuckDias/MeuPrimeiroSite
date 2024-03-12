@@ -1,0 +1,49 @@
+<!DOCTYPE html> <!-- Ao escrever ! e dar enter no emet ele carrega toda a informação básica-->
+<html lang="pt-br"> <!-- Define a linguagem a ser usada (inglês)-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--ajusta o tamanho de acordo com o dispositivo -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles/style.css"> <!-- rel = indica relação dos dois documentos -->
+       <title>Portfolio</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">About-me</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Meu Curriculum</a>
+        </nav>
+    </header><!--cabeçalho onde tem os menus dos sites -->
+    <main class="apresentacao"> <!--tela principal ou central do site -->
+        <section class="apresentacao__conteudo"> <!--cria uma sessão onde os elementos vão ficar separados da imagem-->
+            <!--nome da classe pai__ nome da classe filho-->
+            <h1 class="apresentacao__conteudo__titulo">Bem vindo ao meu inicio no mundo DEV 
+                <strong class="titulo-destaque">Let's get this roast a'cooking!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Me chamo Charles mas pode me chamar de Chuck.
+            Estou à algum tempo atuando como gestor de pessoas.
+            Porém chegou a hora de buscar novos ares e porquê não em uma área bem diferente da minha!!
+            </p>
+            <div class="apresentacao__links"> 
+            <!-- div divide os grupos e seus componentes na horizontal sem valor semantico -->
+                <h2 class="apresentacao__Links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/ChuckDias">
+                    <img src="./assets/github.png">Github</a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/diascharles/">
+                    <img src="./assets/linkedin.png">Linkedin</a>
+                <a class="apresentacao__links__navegacao" href="https://www.twitch.tv/noobzao1984">
+                    <img src="./assets/twitch.png">Twitch Tv</a>
+            </div>
+        </section>
+        <img class="apresentacao__img" src="./assets/measademonslayer (3).jpg" alt="MinhaImagemPortfolio">
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Charles.</p>
+    </footer><!-- onde ficam normalmente as informações de contato e dados do site tipo endereço-->
+</body>
+</html>
+
+<!-- tags de forma semantica, dentro do HTML, com as informações da estrutura>
+para definir uma classe é dentro da tag que você quer ex. strong class="destaqueTitulo">
+reset css é para resetar todos os espaços -->
